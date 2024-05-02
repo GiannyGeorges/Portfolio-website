@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 80px;
+    width: 100vw;
+    position: absolute;
+}
+.header img{
+    height: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+.header-left{
+    display: flex;
+}
+.header-left-list , .header-right-list{
+    margin-top: 30px;
+}
+.header-left-list a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.header-left-list a:hover{
+    text-decoration: underline;
+}
+
+.header-right-list a{
+    margin-left: 150px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.index .section1{
+    height: 100vh;
+    background: no-repeat url("../SpaceX/images/background1.webp");
+    background-size: 100%;
+}
+.index .section2{
+    height: 100vh;
+    background: no-repeat url("../SpaceX/images/background2.webp");
+    background-size: 100%;
+}
+.index .section3{
+    height: 100vh;
+    background: no-repeat url("../SpaceX/images/background3.webp");
+    background-size: 100%;
+}
+.index .section4{
+    height: 100vh;
+    background: no-repeat url("../SpaceX/images/background4.webp");
+    background-size: 100%;
+}
+.index .txts{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 65vh;
+    left: 8vw;
+}
+.index .txt1{
+    font-size: 20px;
+    color: white;
+}
+.index .txt2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+.index .txt3{
+    color: white;
+    height: 40px;
+    width: 150px;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.index .footer{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.index .footer-txt1{
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+    margin-left: 40vw;
+}
+.index .footer-txt2{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.index .footer-txt3{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.index .footer a{
+    text-decoration: none;
+    color: white;
+}

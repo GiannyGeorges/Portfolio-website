@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../v2/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="/index.html"><img src="/images/G.jpg" alt=""></a>
+        </div>
+        <div class="header-tabs">
+            <div class="designs-tab"><a href="#section2">Designs</a></div>
+            <div class="photography-tab"><a href="#section3">Photography</a></div>
+        </div>
+        <div class="header-socials">
+            <a href="https://www.instagram.com/" target="_blank"><img src="/assets/instagram-logo-24 (1).png" alt=""></a>
+            <a href="https://twitter.com/" target="_blank"><img src="/assets/twitter-logo-24 (1).png" alt=""></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="/assets/linkedin-logo-24 (1).png" alt=""></a>
+        </div>
+    </header>
+    <div class="section1">
+        <div class="txt1">
+            <p>WELCOME<br>TO MY<br>WORLD</p>
+        </div>
+        <div class="txt2">
+            <p>Scroll down</p>
+        </div>
+        <div class="animated-arrow">
+            <img src="/assets/chevrons-down-solid-24.png" alt="">
+        </div>
+    </div>
+    <div id="section2" class="section2 bubbles">
+        <div class="bubbles-list show">
+            <div class="bubblesOne">
+                <div class="bubbleOne1" onclick="popOpenOrCloseOne()" >
+                    <img src= "/assets/x-regular-24.png">
+                </div>
+            </div>
+            <div class="bubblesTwo">
+                <div class="bubbleTwo1" onclick="popOpenOrCloseTwo()" >
+                    <img src="/assets/x-regular-24.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="links">
+        <div class="designs-links">
+            <div class="gif-generator" onclick="window.open('/API/Giphy API /index.html','mywindow');">
+                <img src="/images/bubbles/gifwebsite.png">
+                <div class="txt1">
+                    <p>
+                        Un petit générateur de GIF Toujours en construction..
+                    </p>
+                </div>
+            </div>
+            <div class="spacex-replica" onclick="window.open('/Replicas/SpaceX/index.html','mywindow');">
+                <img src="/images/bubbles/spacex.png" >
+                <div class="txt2">
+                    <p>
+                        Une réplique d'un fameux site de streaming. Toujours en construction..
+                    </p>
+                </div>
+            </div>
+            <div class="netflix-replica" onclick="window.open('/Replicas/Netflix/index.html','mywindow');">
+                <img src="/images/bubbles/netflix.png" >
+                <div class="txt3">
+                    <p>
+                        Une réplique du site d'une entreprise aérospatiale bien connue. Toujours en construction..
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="games-links">
+            <div class="drum-simulator" onclick="window.open('/GamingWebsite/Drum Kit/index.html','mywindow');">
+                <img src="/images/bubbles/drumkit.png" >
+                <div class="txt1">
+                    <p>
+                        Avec ce simulateur de batterie, devenez le futur roi du Rock !
+                    </p>
+                </div>
+            </div>
+            <div class="memory-game" onclick="window.open('/GamingWebsite/Simon_Game_Challenge/index.html','mywindow');">
+                <img src="/images/bubbles/simon.png" >
+                <div class="txt2">
+                    <p>
+                        Un petit jeu de click pour travailler la mémoire. 
+                    </p>
+                </div>
+            </div>
+            <div class="tictactoe" onclick="window.open('/GamingWebsite/TicTacToe/index.html','mywindow');">
+                <img src="/images/bubbles/tictactoe.png" >
+                <div class="txt3">
+                    <p>
+                        Ma version du tic-tac-toe. A jouer en solo face à l'ordinateur.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section3" class="section3 diaporama">
+        <div class="highlights">
+            <div class="highlight1">
+                <div class="highlight1-txt">Rome</div>
+                <div class="highlights-img">
+                    <img src="/images/highlights/flag rome.jpeg">
+                </div>
+            </div>
+            <div class="highlight2">
+                <div class="highlight2-txt">Lourdes</div>
+                <div class="highlights-img">
+                    <img src="/images/highlights/toits-lourdes-france_250484-531.avif">
+                </div>
+            </div>
+            <div class="highlight3">
+                <div class="highlight3-txt">Martinique</div>
+                <div class="highlights-img">
+                    <img src="/images/highlights/Flag-of-Martinique.svg">
+                </div>
+            </div>
+            <div class="highlight4">
+                <div class="highlight4-txt">Guadeloupe</div>
+                <div class="highlights-img">
+                    <img src="/images/highlights/1280px-Flag_of_Guadeloupe_(UPLG).svg.png">
+                </div>
+            </div>
+            <div class="highlight5">
+                <div class="highlight5-txt">Bretagne Normandie</div>
+                <div class="highlights-img imgbretnor">
+                    <img src="/images/highlights/Capture d’écran 2024-04-15 à 18.18.01.png">
+                </div>
+            </div>
+            <div class="highlight6">
+                <div class="highlight6-txt">Occitanie</div>
+                <div class="highlights-img">
+                    <img src="/images/highlights/4264-occitania_400px.jpeg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="diaporama">
+            <div class="left-arrow" onclick="previousPicture()">
+                <img src="/assets/chevron-left-solid-24.png" alt="">
+            </div>
+            <div class="right-arrow" onclick="nextPicture()">
+                <img src="/assets/chevron-right-solid-24.png" alt="">
+            </div>
+            <div class="diaporama-display">
+                <div class="diaporama-picture">
+                    <img src="/images/diaporama/Rome/1.JPG">
+                </div>
+            </div>
+            <div class="diaporama-slide">
+                <div class="slide1 slide"><img src="/images/diaporama/Rome/1.JPG"></div>
+                <div class="slide2"><img src="/images/diaporama/Rome/2.JPG"></div>
+                <div class="slide3"><img src="/images/diaporama/Rome/3.JPG"></div>
+                <div class="slide4"><img src="/images/diaporama/Rome/4.JPG"></div>
+                <div class="slide5"><img src="/images/diaporama/Rome/5.JPG "></div>
+                <div class="slide6"><img src="/images/diaporama/Rome/6.JPG"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="text">Made with love. GGH. - Tous droits réservés ©</div>
+    </footer>
+    <script src="../v2/script.js"></script>
+</body>
+</html>

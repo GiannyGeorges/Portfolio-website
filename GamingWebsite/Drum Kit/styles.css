@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background: url("../Drum Kit/images/background.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 5rem;
+  color: red;
+  text-shadow: 3px 0 black;
+}
+
+.w {
+  background-image: url("../Drum Kit/images/tom1.png");
+}
+
+.a {
+  background-image: url("../Drum Kit/images/tom2.png");
+}
+
+.s {
+  background-image: url("../Drum Kit/images/tom3.png");
+}
+
+.d {
+  background-image: url("../Drum Kit/images/tom4.png");
+}
+
+.j {
+  background-image: url("../Drum Kit/images/snare.png");
+}
+
+.k {
+  background-image: url("../Drum Kit/images/crash.png");
+}
+
+.l {
+  background-image: url("../Drum Kit/images/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #c3c4cb;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: rgb(255, 0, 0);
+  text-shadow: 3px 0 #000000;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+footer {
+  font-size: 3vh;
+  color: white;
+  padding-top: 17vh;
+}

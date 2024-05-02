@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    height: 80px;
+    width: 100vw;
+    position: absolute;
+}
+.header img{
+    height: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+.header-left{
+    display: flex;
+}
+.header-left-list , .header-right-list{
+    margin-top: 30px;
+}
+.header-left-list a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.header-left-list a:hover{
+    text-decoration: underline;
+}
+.header-right-list a{
+    margin-left: 150px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+.section1 {
+    background: url(../SpaceX/images/falcon9/background1.webp) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    vertical-align: middle;
+    display: table-cell;
+}
+.section1 .txt1 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+.section1 .txt2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+.section2 {
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+    width: 100vw;
+    align-items: center;
+}
+.section2 .values{
+    position: relative;
+    top: 10vh;
+    width: 45vw;
+    display: flex;
+    margin-left: 18.5vw;
+}
+.section2 .value1 , .section2 .value2 , .section2 .value3 {
+    color: white;
+    margin-left: 5vw;
+}
+.section2 #value1-number , .section2 #value2-number , .section2 #value3-number {
+    font-size: 150px;
+}
+.section2 .value1-txt , .section2 .value2-txt , .section2 .value3-txt {
+    text-align: center;
+    width: 12vw;
+    font-size: 20px;
+}
+
+
+.section3 {
+    background-color: rgb(0, 0, 0);
+    height: 190vh;
+}
+.section3 p {
+    color: white;
+    font-size: 18px;
+    height: 20vh;
+    width: 30vw;
+    position: relative;
+    top: 40vh;
+    left: 10vw;
+    margin-bottom: 40vh;
+}
+
+
+.section4 .slide1{
+    display: flex;
+    margin-top: 20vh;
+    color: white;
+}
+.section4 .slide2{
+    display: flex;
+    margin-top: 20vh;
+    color: white;
+}
+.section4 .slide3{
+    margin-top: 20vh;
+    color: white;
+}
+.section4 .carousel-grid{
+    height: 60vh;
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+}
+.section4 .slide1 .txt1 {
+    font-size: 25px;
+}
+.section4 .slide1 .txt2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10vh;
+}
+.section4 .grid {
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+}
+.section4 span {
+    color: grey;
+}
+.section4 .right {
+    text-align: right;
+}
+.section4 img {
+    height: 82vh;
+    position: relative;
+    left: 17vw;
+}
+.section4 .slide2 .txt1 {
+    font-size: 25px;
+}
+.section4 .slide2 .txt2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+.section4 .slide2 .tabs{
+    display: flex;
+    height: 5vh;
+    width: 30vw;
+    margin-bottom: 5vh;
+    font-size: 18px;
+}
+.section4.engines-tab , .section4.landing-tab{
+    color: grey;
+    margin-left: 20px;
+}
+.section4 .overview {
+    display: block;
+    width: 80vw;
+    margin-bottom: 5vh;
+}
+.section4 .overview-txt1{
+    width: 40vw;
+    margin-bottom: 3vh;
+}
+.section4 .overview-txt2{
+    width: 40vw;
+}
+.section4 .engines{
+    display: none;
+}
+.section4 .engines-txt{
+    width: 40vw;
+    margin-bottom: 3vh;
+}
+.section4 .engines-grid{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 50px 50px;
+}
+.section4 .engines .right1 , .section4 .engines .right2 , .section4 .engines .right3{
+    text-align: right;
+}
+.section4 .landing{
+    display: none;
+}
+.section4 .landing-txt1{
+    width: 40vw;
+    margin-bottom: 2vh;
+}
+.section4 .landing-txt2{
+    width: 40vw;
+    margin-bottom: 2vh;
+}
+.section4 .landing-link{
+    width: 40vw;
+    font-weight: bold;
+}
+.section4 .slide3 {
+    margin-top: 40vh;
+    margin-left: 10vw;
+    color: white;
+}
+.section4 .slide3 .txt1 {
+    font-size: 25px;
+}
+.section4 .slide3 .txt2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+.section4 .slide3 .txt3 {
+    font-size: 18px;
+    width: 40vw;
+    margin-bottom: 5vh;
+}
+.section4 .slide3 .txt4 {
+    font-size: 18px;
+    width: 40vw;
+    margin-bottom: 5vh;
+}
+.section4 .slide3 .txt5 {
+    font-size: 18px;
+    width: 40vw;
+    margin-bottom: 5vh;
+}
+.section4 .slide4 {
+    margin-top: 20vh;
+    color: white;
+}
+.section4 .slide4 .carousel-grid2{
+    height: 60vh;
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+}
+.section4 .slide4 .txt1 {
+    font-size: 25px;
+}
+.section4 .slide4 .txt2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+.section4 .slide4 .txt3 {
+    font-size: 18px;
+    width: 40vw;
+    margin-bottom: 5vh;
+}
+.section4 .slide5 {
+    margin-top: 20vh;
+    margin-left: 10vw;
+    color: white;
+}
+.section4 .slide5 .txt1 {
+    font-size: 25px;
+    margin-top: 40vh;
+}
+.section4 .slide5 .txt2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+.section4 .slide5 .tabs{
+    display: flex;
+    height: 5vh;
+    width: 30vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    font-size: 18px;
+}
+.section4 .slide5 .fairing-tab{
+    color: white;
+    margin-right: 2vw;
+}
+.section4 .slide5 .dragon-tab {
+    color: grey;
+}
+.section4 .slide5 .fairing{
+    display: block;
+}
+.section4 .fairing-txt1{
+    width: 40vw;
+    margin-bottom: 3vh;
+}
+.section4 .fairing-grid{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 50px;
+}
+.section4 .fairing .right1 , .fairing .right2{
+    text-align: right;
+}
+.section4 .slide5 .dragon{
+    display: none;
+}
+.section4 .dragon-txt1{
+    width: 40vw;
+    margin-bottom: 3vh;
+}
+.section4 .dragon-link{
+    margin-bottom: 5vh;
+}
+.section4 .dragon-grid{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 50px;
+}
+.section4 .dragon .right1 , .dragon .right2{
+    text-align: right;
+}
+
+
+.section5{
+    background-color: aqua;
+    height: 120vh;
+    background-image: url(../SpaceX/images/falcon9/spacex-gray-scale-0epbpm1ma17oaabl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section5 img {
+    height: 10vh;
+    position: relative;
+    top: 50vh;
+    left: 45vw;
+}
+.section5 .txt1{
+    color: white;
+    font-size: 14px;
+    position:relative;
+    top: 80vh;
+    left: 10vw;
+}
+.section5 .txt2{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 80vh;
+    left: 10vw;
+}
+
+
+.section6{
+    height: 90vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+.section6 .left{
+    width: 50vw;
+}
+.section6 .txt1{
+    color: white;
+    font-size: 15px;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+.section6 .txt2 {
+    color: white;
+    font-size: 40px;
+    margin-left: 10vw;
+}
+.section6 .tabs{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+.sealevel-tab{
+    color: white;
+}
+.vacuum-tab{
+    margin-left: 10px;
+    color: grey;
+}
+.section6 .sealevel-txt3 {
+    margin-top: 5vh;
+    color: white;
+    width: 30vw;
+    margin-left: 10vw;
+    font-size: 18px;
+}
+.section6 .vacuum-txt3 {
+    margin-top: 5vh;
+    color: white;
+    width: 30vw;
+    margin-left: 10vw;
+    font-size: 18px;
+}
+.section6 .sealevel-grid {
+    color: white;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 15vw 15vw;
+    grid-template-rows: 5vh 5vh;
+}
+.section6 .vacuum-grid {
+    color: white;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 15vw 15vw;
+    grid-template-rows: 5vh 5vh;
+}
+.section6 .right{
+    text-align: right;
+}
+.section6 span {
+    color: grey;
+}
+.section6 img {
+    height: 75vh;
+    position: relative;
+    top: 10vh;
+}
+.sealevel-txt-grid{
+    display: block;
+}
+.vacuum-txt-grid{
+    display: none;
+}
+
+.section7 {
+    background-color:rgb(0, 0, 0);
+    height: 110vh;
+}
+.section7 .diapo{
+    overflow: hidden;
+}
+.section7 #nav-droite, .section7 #nav-gauche{
+    position: relative;
+    top: 0px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
+}
+.section7 #nav-droite{
+    left: 95vw;
+}
+.section7 #nav-gauche{
+    left: 1vw;
+}
+.section7 .elements{
+    display: flex;
+    transition: 0.25s linear;
+}
+.section7 .element{
+    flex: 1 0 100%;
+    position: relative;
+}
+.section7 .element > img{
+    width: 100%;
+}
+.section7 .caption{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 1vh;
+}
+
+.section8 {
+    height: 40vh;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.section8 p {
+    color: rgb(180, 180, 180);
+    position: relative;
+    top: 17vh;
+}
+.section8 span {
+    color: rgb(230, 230, 230);
+}
+.button1 {
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 220px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    position: relative;
+    top: 20vh;
+}
+.button2 {
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 220px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;position: relative;
+    top: 20vh;
+}
+.button1:hover{
+    background-color: white;
+    color: black;
+    animation-duration: 0.5;
+}
+.button2:hover{
+    background-color: white;
+    color: black;
+    animation-duration: 0.5;
+}
+
+.footer {
+    background-color: black;
+    height: 10vh;
+}
+.footer .container {
+    display: flex;
+    margin-left: 40vw;
+}
+.footer p {
+    color: grey;
+    font-size: 13px;
+}
+.footer .txt1 , .footer .txt2 {
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.footer .txt1:hover , .footer .txt2:hover {
+    color: rgb(201, 201, 201);
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../TicTacToe/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo1">x</div>
+            <div class="logo2">o</div>
+            <div class="logo3">o</div>
+            <div class="logo4">x</div>
+        </div>
+        <div class="head-text">TIC TAC TOE</div>
+    </header>
+    <div class="container">
+        
+        <div class="player1-text">Player 1</div>
+        <div class="player2-text">Computer</div>
+        
+        <div class="player1-arrow"><img src="../TicTacToe/images/icone-fleche-droite-noir.png"></div>
+        <div class="player2-arrow"><img src="../TicTacToe/images/icone-fleche-droite-noir.png"></div>
+        
+        <div class="animated-playboard">
+            <div class="animated-playboard-case1 croiximg"><img class="animate" src="../TicTacToe/images/croix.png"></div>
+            <div class="animated-playboard-case2 rondimg"><img class="animate" src="../TicTacToe/images/rond.png"></div>
+            <div class="animated-playboard-case3 croiximg"><img class="animate" src="../TicTacToe/images/croix.png"></div>
+            <div class="animated-playboard-case4 rondimg"><img class="animate" src="../TicTacToe/images/rond.png"></div>
+            <div class="animated-playboard-case5 rondimg"><img class="animate" src="../TicTacToe/images/rond.png"></div>
+            <div class="animated-playboard-case6 croiximg"><img class="animate" src="../TicTacToe/images/croix.png"></div>
+            <div class="animated-playboard-case7 rondimg"><img class="animate" src="../TicTacToe/images/rond.png"></div>
+            <div class="animated-playboard-case8 croiximg"><img class="animate" src="../TicTacToe/images/croix.png"></div>
+            <div class="animated-playboard-case9 rondimg"><img class="animate" src="../TicTacToe/images/rond.png"></div>
+        </div>
+
+        <div class="playboard">
+            <div class="playboard-case1 croiximg" onclick="Clicked1()"><img class="img1"> </div>
+            <div class="playboard-case2 rondimg" onclick="Clicked2()"><img class="img2"> </div>
+            <div class="playboard-case3 croiximg" onclick="Clicked3()"><img class="img3"> </div>
+            <div class="playboard-case4 rondimg" onclick="Clicked4()"><img class="img4"> </div>
+            <div class="playboard-case5 rondimg" onclick="Clicked5()"><img class="img5"> </div>
+            <div class="playboard-case6 croiximg" onclick="Clicked6()"><img class="img6"> </div>
+            <div class="playboard-case7 rondimg" onclick="Clicked7()"><img class="img7"> </div>
+            <div class="playboard-case8 croiximg" onclick="Clicked8()"><img class="img8"> </div>
+            <div class="playboard-case9 rondimg" onclick="Clicked9()"><img class="img9"> </div>
+        </div>
+
+        <div class="btn-start" onclick="start()">
+            <div class="btn-text">Start</div>
+        </div>
+    </div>
+    
+    <div class="youWin">
+        <div class="YouWinText">
+            YOU WIN !!
+        </div> 
+       
+        <div class="Restart-btn" onclick="Restart()">
+            <div class="Restart-text">
+                Restart
+            </div> 
+        </div>
+     </div>
+    <footer><div class="footer-text"> Made with love by GHG.</div></footer>
+
+    <script src="../TicTacToe/script.js"></script>
+</body>
+</html>

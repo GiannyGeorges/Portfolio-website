@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../SpaceX/falcon9-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body class="falcon9">
+    <div class="header">
+        <div class="header-left">
+            <div class="logo">
+                <a href="../SpaceX/index.html"><img src="../SpaceX/images/spacex-logo-black-and-white.png"></a>
+            </div>
+            <div class="header-left-list">
+                <a href="../SpaceX/falcon9.html">FALCON 9</a>
+                <a href="">FALCON HEAVY</a>
+                <a href="">DRAGON</a>
+                <a href="">STARSHIP</a>
+                <a href="">HUMAN SPACEFLIGHT</a>
+                <a href="">RIDESHARE</a>
+                <a href="">STARSHIELD</a>
+                <a href="">STARLINK</a>
+            </div>
+            <div class="header-right-list">
+                <a href="">SHOP</a>
+            </div>
+            <div class="header-right-burger">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section1">
+        <div class="txt1">FALCON 9</div> 
+        <div class="txt2">FIRST ORBITAL CLASS ROCKET CAPABLE OF REFLIGHT</div> 
+    </div>
+
+    <div class="section2 counting">
+        <div class="values">
+            <div class="value1">
+                <div id="value1-number">100</div>
+                <div class="value1-txt">TOTAL LAUNCHES</div>
+            </div>
+            <div class="value2">
+                <div id="value2-number">100</div>
+                <div class="value2-txt">TOTAL LANDINGS</div>
+            </div>
+            <div class="value3">
+                <div id="value3-number">100</div>
+                <div class="value3-txt">TOTAL REFLIGHTS</div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="section3">
+        <p>Falcon 9 is a reusable, two-stage rocket designed and manufactured by SpaceX for the reliable 
+            and safe transport of people and payloads into Earth orbit and beyond. 
+            Falcon 9 is the world’s first orbital class reusable rocket. 
+            Reusability allows SpaceX to refly the most expensive parts of the rocket, which in turn drives
+            down 
+            the cost of space access.
+        </p>
+        <div class="section4 slide1">
+
+            <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide">
+                            <div class="slide1">
+                                <div class="carousel-grid">
+                                    <div class="carousel-grid-top">
+                                        <div class="txt1">FALCON 9</div>
+                                        <div class="txt2">OVERVIEW</div>
+                                    </div>
+                                    <div class="carousel-grid-bottom">
+                                        <div class="grid">
+                                            <div class="left1">HEIGHT</div>
+                                            <div class="right1 right">70 m <span>/ 229.6 ft</span></div>
+                                            <div class="left2">DIAMETER</div>
+                                            <div class="right2 right">3.7 m <span>/ 12 ft</span></div>
+                                            <div class="left3">MASS</div>
+                                            <div class="right3 right">549,054 kg <span>/ 1,207,920 lb</span></div>
+                                            <div class="left4">PAYLOAD TO LEO</div>
+                                            <div class="right4 right">22,800 kg <span>/ 50,265 lb</span></div>
+                                            <div class="left5">PAYLOAD TO GTO</div>
+                                            <div class="right5 right">8,300 kg <span>/ 18,300 lb</span></div>
+                                            <div class="left6">PAYLOAD TO MARS</div>
+                                            <div class="right6 right">4,020 kg <span>/ 8,860 lb</span></div>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <img src="../SpaceX/images/falcon9/Copernicus_Sentinel-6_lifts_off_on_a_SpaceX_Falcon_9_rocket (2).png">
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <div class="slide2">
+                                <div class="carousel-grid">
+                                    <div class="carousel-grid-top">
+                                        <div class="txt1">FALCON 9</div>
+                                        <div class="txt2">FIRST STAGE</div>
+                                    </div>
+                                    <div class="tabs">
+                                        <div class="overview-tab" onclick="overviewClick()">OVERVIEW</div>
+                                        <div class="engines-tab" onclick="enginesClick()">ENGINES</div>
+                                        <div class="landing-tab" onclick="landingClick()">LANDING LEGS</div>
+                                    </div>
+                                    <div class="overview">
+                                        <div class="overview-txt1">
+                                            Falcon 9’s first stage incorporates nine Merlin engines and 
+                                            aluminum-lithium alloy tanks containing liquid oxygen and 
+                                            rocket-grade kerosene (RP-1) propellant.
+                                        </div>
+                                        <div class="overview-txt2">
+                                            Falcon 9 generates more than 1.7 million pounds of thrust at sea level.
+                                        </div>
+                                        <img src="" class="">  
+                                    </div> 
+                                    <div class="engines">
+                                        <div class="engines-txt">
+                                            The nine Merlin engines on the first stage are gradually throttled near 
+                                            the end of first-stage flight to limit launch vehicle acceleration as 
+                                            the rocket’s mass decreases with the burning of fuel. These engines are
+                                            also used to reorient the first stage prior to reentry and to decelerate 
+                                            the vehicle for landing.
+                                        </div>
+                                        <div class="engines-grid">
+                                            <div class="left1">NUMBER OF ENGINES</div>
+                                            <div class="right1">9</div>
+                                            <div class="left2">THRUST AT SEA LEVEL</div>
+                                            <div class="right2">7,607 kN <span>/ 1,710,000 lbf</span></div>
+                                            <div class="left3">THRUST IN VACUUM</div>
+                                            <div class="right3">8,227 kN <span>/ 1,849,500 lbf</span></div>
+                                        </div>
+                                        <img src="" class="">
+                                    </div>
+                                    <div class="landing">
+                                        <div class="landing-txt1">
+                                            The Falcon 9 first stage is equipped with four landing legs made of 
+                                            state-of-the-art carbon fiber with aluminum honeycomb.
+                                        </div>
+                                        <div class="landing-txt2">
+                                            Placed symmetrically around the base of the rocket, they are stowed 
+                                            at the base of the vehicle and deploy just prior to landing.
+                                        </div>
+                                        <div class="landing-link">
+                                            Learn more about SpaceX reusability >
+                                        </div>
+                                        <img src="" class="">
+                                    </div>
+                                    
+                                </div>
+                        
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <div class="slide3">
+                                <div class="txt1">FALCON 9</div>
+                                <div class="txt2">INTERSTAGE</div>
+                                <div class="txt3">
+                                    The interstage is a composite structure that connects the first and second stages, 
+                                    and houses the pneumatic pushers that allow the first and second stage to separate 
+                                    during flight.
+                                </div>
+                                <div class="txt4">
+                                    GRID FINS
+                                </div>
+                                <div class="txt5">
+                                    Falcon 9 is equipped with four hypersonic grid fins positioned at the base of the interstage. 
+                                    They orient the rocket during reentry by moving the center of pressure.
+                                </div>
+
+                                <img src="">
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <div class="slide4">
+                                <div class="carousel-grid2">
+                                    <div class="carousel-grid2-top">
+                                        <div class="txt1">FALCON 9</div>
+                                        <div class="txt2">SECOND STAGE</div>
+                                        <div class="txt3">
+                                            The second stage, powered by a single Merlin Vacuum Engine, delivers Falcon 9’s payload 
+                                            to the desired orbit. The second stage engine ignites a few seconds after stage separation, 
+                                            and can be restarted multiple times to place multiple payloads into different orbits.
+                                        </div>
+                                    </div>
+                                    <div class="carousel-grid2-bottom">
+                                        <div class="grid">
+                                            <div class="left1">NUMBER OF ENGINES</div>
+                                            <div class="right1 right">1 vacuum</div>
+                                            <div class="left2">BURN TIME</div>
+                                            <div class="right2 right">397 sec</div>
+                                            <div class="left3">THRUST</div>
+                                            <div class="right3 right">981 kN<span> / 220,500 lbf</span></div>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <img src="">
+                            </div>
+                          </li>
+                          <li class="splide__slide">
+                            <div class="slide5">
+                                <div class="carousel-grid3">
+                                    <div class="carousel-grid3-top">
+                                        <div class="txt1">FALCON 9</div>
+                                        <div class="txt2">PAYLOAD</div>
+                                    </div>
+                                    <div class="tabs">
+                                        <div class="fairing-tab" onclick="fairingClick()">FAIRING</div>
+                                        <div class="dragon-tab" onclick="dragonClick()">DRAGON</div>
+                                    </div>
+                                    <div class="fairing">
+                                        <div class="fairing-txt1">
+                                            Made of a carbon composite material, the fairing protects satellites 
+                                            on their way to orbit. The fairing is jettisoned approximately 3 minutes
+                                            into flight, and SpaceX continues to recover fairings for reuse on future missions.
+                                        </div>
+                                        <div class="fairing-grid">
+                                            <div class="left1">HEIGHT</div>
+                                            <div class="right1">13.1 m<span> / 43 ft</span></div>
+                                            <div class="left2">DIAMETER</div>
+                                            <div class="right2">5.2 m<span> / 17.1 ft</span></div>
+                                        </div>
+                                        <img src="" class="">
+                                    </div>
+                                    <div class="dragon">
+                                        <div class="dragon-txt1">
+                                            Dragon is capable of carrying up to 7 people and/or cargo in the spacecraft’s 
+                                            pressurized section. In addition, Dragon can carry cargo in the spacecraft’s 
+                                            unpressurized trunk, which can also accommodate secondary payloads.
+                                        </div>
+                                        <div class="dragon-link">
+                                            Learn more about Dragon >
+                                        </div>
+                                        <div class="dragon-grid">
+                                            <div class="left1">HEIGHT</div>
+                                            <div class="right1">8.1 m<span> / 26.6 ft</span></div>
+                                            <div class="left2">DIAMETER</div>
+                                            <div class="right2">3.7 m<span> / 12 ft</span></div>
+                                        </div>
+                                        <img src="" class="">
+                                    </div>
+                                    
+                                </div>
+                        
+                            </div>
+                          </li>
+                      </ul>
+                </div>
+              </section>
+
+        </div>
+    </div>
+    <div class="section5 video">
+        <img src="../SpaceX/images/kisspng-computer-icons-youtube-play-button-clip-art-play-button-5ac1d4d25921d5.7177159215226523703651.png" alt="">
+        <div class="txt1">VIDEO</div>
+        <div class="txt2">FALCON 9 IN FLIGHT</div>
+    </div>
+    <div class="section6">
+        <div class="left">
+            <div class="txt1">ENGINES</div>
+            <div class="txt2">MERLIN</div>
+            <div class="tabs">
+                <div class="sealevel-tab" onclick="sealevelClick()">SEA LEVEL</div>
+                <div class="vacuum-tab" onclick="vacuumClick()" >VACUUM</div>
+            </div>
+            <div class="sealevel-txt-grid">
+                <div class="sealevel-txt3">Merlin is a family of rocket engines developed by SpaceX for use on its Falcon 1, 
+                    Falcon 9 and Falcon Heavy launch vehicles. Merlin engines use a rocket grade kerosene (RP-1) 
+                    and liquid oxygen as rocket propellants in a gas-generator power cycle. The Merlin engine was 
+                    originally designed for recovery and reuse.
+                </div>
+                <div class="sealevel-grid">
+                    <div class="left1">PROPELLANT</div>
+                    <div class="right1 right">LOX <span>/ RP-1</span></div>
+                    <div class="left2">THRUST</div>
+                    <div class="right2 right">845 kN <span>/ 190,000 lbf</span></div>
+                </div>
+            </div>
+            <div class="vacuum-txt-grid">
+                <div class="vacuum-txt3">Merlin Vacuum features a larger exhaust section and a significantly larger expansion
+                     nozzle to maximize the engine’s efficiency in the vacuum of space. Its combustion chamber is regeneratively
+                      cooled, while the expansion nozzle is radiatively cooled. At full power, the Merlin Vacuum engine operates 
+                      with the greatest efficiency ever for an American-made hydrocarbon rocket engine.
+                </div>
+                <div class="vacuum-grid">
+                    <div class="left1">PROPELLANT</div>
+                    <div class="right1 right">LOX <span>/ RP-1</span></div>
+                    <div class="left2">THRUST</div>
+                    <div class="right2 right">981 kN <span>/ 220,500 lbf</span></div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="img">
+            <img class="imgMerlin" src="../SpaceX/images/Merlin1.png" alt="">
+        </div>
+
+    </div>
+    <div class="section7 panorama">
+        <div class="diapo">
+
+            <div class="elements">
+
+                <div class="element active">
+                    <img src="../SpaceX/images/falcon9/panorama/pano1.png" alt="Image 1">
+                    <div class="caption">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                    </div>
+                </div>
+               
+                <div class="element">
+                    <img src="../SpaceX/images/falcon9/panorama/pano2.png" alt="Image 2">
+                    <div class="caption">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                    </div>
+                </div>
+                
+                <div class="element">
+                    <img src="../SpaceX/images/falcon9/panorama/pano3.png" alt="Image 3">
+                    <div class="caption">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                    </div>
+                </div>
+                
+                <div class="element">
+                    <img src="../SpaceX/images/falcon9/panorama/pano4.png" alt="Image 4">
+                    <div class="caption">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                    </div>
+                </div>
+                
+                <div class="element">
+                    <img src="../SpaceX/images/falcon9/panorama/pano5.png" alt="Image 5">
+                    <div class="caption">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                    </div>
+                </div>
+               
+                <div class="element">
+                    <img src="../SpaceX/images/falcon9/panorama/pano6.png" alt="Image 6">
+                    <div class="caption">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, saepe.</p>
+                    </div>
+                </div>
+            </div>
+
+            <i id="nav-gauche" class="las la-chevron-left"></i>
+            <i id="nav-droite" class="las la-chevron-right"></i>
+            
+        </div>
+    </div>
+    <div class="section8">
+        <p>For information about our launch services, contact <span>sales@spacex.com</span></p>
+        <button class="button1">DOWNLOAD USER'S GUIDE</button>
+        <button class="button2">CAPABILITIES AND SERVICES</button>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p>SPACEX © 2024</p>
+            <div class="txt1">PRIVACY POLICY</div>
+            <div class="txt2">SUPPLIERS</div>
+        </div>
+        
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+    <script src="../SpaceX/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("/images/photo2.jpeg") no-repeat center center fixed;
+    background-position: bottom; 
+    background-size: 105%;
+    overflow-x: hidden;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 7vh;
+    width: 100vw;
+}
+.header-logo img{
+    height: 7vh;
+}
+.header-tabs{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    margin-top: 2vh;
+    margin-left: 75vw;
+}
+.photography-tab{
+    margin-left: 10px;
+}
+.header-socials{
+    margin-left: 10px;
+}
+.header-socials img{
+    height: 30px;
+    margin-top: 1.5vh;
+    margin-left: 0.5vw;
+}
+.designs-tab a , .photography-tab a{
+    text-decoration: none;
+    color: white;
+}
+.designs-tab a:hover , .photography-tab a:hover{
+    text-decoration: underline;
+}
+
+.section1{
+    height: 90vh;
+    width: 100vw;
+}
+.section1 .txt1{
+    color: white;
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: right;
+    margin-right: 2vw;
+}
+.section1 .txt2{
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+    top: 10vh;
+    left: 80vw;
+}
+@keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+}
+.animated-arrow img{
+    position: relative;
+    left: 82.5vw;
+    top: 7vh;
+    width: 100px;
+    height: 70px;
+    transform: translatey(0px);
+    animation: float 1s ease-in-out infinite;
+}
+@keyframes vibrating {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(2px, 2px) rotate(5deg); }
+    50% { transform: translate(0, 0) rotate(0eg); }
+    75% { transform: translate(-2px, 2px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+.section2{
+    height: 80vh;
+}
+.bubbles-list{
+    transform: translateX(500%);
+    transition: transform 0.5s ease;
+}
+.bubbles-list.show{
+    transform: translateX(0);
+}
+.bubbles{
+    display: flex;
+    position: relative;
+    top: 10vh;
+    left: 5vw;
+}
+.bubblesOne , .bubblesTwo {
+    height: 30vh;
+    margin-top: 7vh;
+}
+.bubbleOne1 , .bubbleTwo1{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    animation: vibrating 0.5s infinite;
+    animation-play-state: running;
+    cursor: pointer;
+}
+.bubbleOne1{
+    background-image: url(/images/bubbles/Capture1.png);
+    background-size: contain;
+}
+.bubbleTwo1{
+    background-image: url(/images/bubbles/Capture2.png);
+    background-size: contain;
+}
+.bubbleOne1 img , .bubbleTwo1 img{
+    display: none;
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+
+.designs-links{
+    width: 60vw;
+    height: 50vh;
+    position: relative;
+    top: -80vh;
+    left: 30vw;
+    display: none;
+}
+.designs-links img{
+    height: 100px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.designs-links p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: white;
+}
+.gif-generator , .spacex-replica , .netflix-replica{
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 120px;
+    margin-bottom: 20px;
+}
+.games-links{
+    width: 60vw;
+    height: 50vh;
+    position: relative;
+    top: -50vh;
+    left: 30vw;
+    display: none;
+}
+.games-links img{
+    height: 100px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.games-links p{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: white;
+}
+.drum-simulator , .memory-game , .tictactoe{
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.section3{
+    margin-top: 50vh;
+}
+.highlights{
+    display: flex;
+    width: 90vw;
+    height: 20vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+.highlights-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;
+}
+.imgbretnor {
+    position: relative;
+    top: -20px;
+}
+.highlight1 , .highlight2 , .highlight3 , .highlight4 , .highlight5 , .highlight6 {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: grey;
+        margin: auto;
+        cursor:pointer;
+}
+.highlight1-txt , .highlight2-txt  , .highlight3-txt  , .highlight4-txt  , .highlight5-txt  , .highlight6-txt  {
+        position: relative;
+        top: 12vh;
+        text-align: center;
+        font-size: 18px;
+}
+.diaporama{
+        height: 80vh;
+        width: 100vw;
+}
+.left-arrow{
+        left: 1vh;
+        top: 300px;
+}
+.right-arrow {
+        left: 96vw;
+        top: 220px;
+}
+.left-arrow , .right-arrow {
+        background-color: rgb(0, 0, 0, 0.1);
+        height: 80px;
+        width: 50px;
+        position: relative;
+}
+.left-arrow img , .right-arrow img {
+        margin-top: 15px;
+        cursor:pointer;
+}
+.diaporama-display{
+        margin: auto;
+        background-color: rgb(0, 0, 0, 0.1);
+        height: 60vh ;
+        width: 70vw;
+        position: relative;
+        top: -15vh;
+}
+.diaporama-slide{
+        background-color: rgb(0, 0, 0, 0.1);
+        height: 15vh;
+        width: 75vw;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: -14vh;
+        display: flex;
+}
+.slide1 , .slide2 , .slide3 , .slide4 , .slide5 , .slide6 {
+        background-color: rgb(0, 0, 0, 0.5);
+        height: 100px;
+        width: 153px;
+        margin-left: 1vw;
+        margin-top: 1vw;
+        margin-right: 1vw;
+        flex: auto;
+        cursor:pointer;
+}
+.diaporama-slide img{
+    height: 100px;
+}
+.diaporama-picture img {
+    height: 500px;
+}
+.diaporama-picture {
+    text-align: center;
+}
+
+footer{
+    height: 30px;
+    background-color: black;
+    position: relative;
+    top: 30vh;
+    color: white;
+}
+footer .text{
+    font-weight: bold;
+    text-align: right;
+    margin-right: 1vw;
+}

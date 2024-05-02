@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Netflix/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" rel="stylesheet">
+</head>
+<body class="main-body">
+    <div class="profile-picking">
+        <div class="txt1">
+            Qui est-ce ?
+        </div>
+        <div class="profiles">
+            <img class="profile1" src="../Netflix/images/profile1.png" onclick="FirstLogin()">
+            <img class="profile2" src="../Netflix/images/profile2.png">
+            <img class="profile3" src="../Netflix/images/profile3.png">
+            <img class="profile4" src="../Netflix/images/profile4.png">
+            <img class="profile5" src="../Netflix/images/profile5.png">
+            <div class="profile1-name">Profile1</div>
+            <div class="profile2-name">Profile2</div>
+            <div class="profile3-name">Profile3</div>
+            <div class="profile4-name">Profile4</div>
+            <div class="profile5-name">Profile5</div>
+        </div>
+        <div class="profile-settings">
+            Gérer les profils
+        </div>
+    </div>
+    <div class="home-page">
+        <div class="headbar">
+            <div class="bar">
+                <div class="left-navbar">
+                    <div class="logo">
+                        <img src="../Netflix/images/logo.png" alt="">
+                    </div>
+                    <div class="navbar-list">
+                        <a>Accueil</a>
+                        <a>Séries</a>
+                        <a>Films</a>
+                        <a>Nouveautés les plus regardées</a>
+                        <a>Ma liste</a>
+                        <a>Explorer par langue</a>
+                    </div>
+                </div>
+                <div class="right-navbar">
+                    <img class="loupe" src="../Netflix/images/loupe.png">
+                    <img class="bell" src="../Netflix/images/bell.png" onmouseover="ShowNewsBox()">
+                    <img class="pfp" src="../Netflix/images/profile1.png">
+                    <img class="arrow" src="../Netflix/images/arrow-icon.png" onmouseover="ShowProfileBox()" >
+                </div>
+            </div>
+        </div>
+        <div class="lowbar">
+            <div class="txt1">
+                Regardez la saison 5 maintenant
+            </div>
+            <div class="txt2">
+                L'équipe pittoresque du Gotham Garage donne une seconde vie à une collection électrique de véhicules, les métamorphosant en pièces uniques qui se revendront au prix fort.
+            </div>
+            <button class="lecture-btn" type="button">
+                Lecture
+            </button>
+            <div class="infos">
+                i Plus d'infos
+            </div>
+        </div>
+        <div class="changeProfileBox" onmouseover="ShowProfileBox()" onmouseout="HideProfileBox()">
+            <div class="">
+                <div class="txt txt1">
+                    <img class="box-img" src="../Netflix/images/profile2.png">
+                    Profile1
+                </div>
+                <div class="txt txt2">
+                    <img class="box-img" src="../Netflix/images/profile3.png">
+                    Profile2
+                </div>
+                <div class="txt txt3">
+                    <img class="box-img" src="../Netflix/images/profile4.png".png">
+                    Profile3
+                </div>
+                <div class="txt txt4">
+                    <img class="box-img" src="../Netflix/images/profile5.png">
+                    Profile4
+                </div>
+                <div class="txt txt5">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    Gérer les profils
+                </div>
+                <div class="txt txt6">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    Transférer un profil
+                </div>
+                <div class="txt txt7">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    Compte
+                </div>
+                <div class="txt txt8">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    Centre d'aide
+                </div>
+                <div class="txt9">
+                    Se déconnecter
+                </div>
+            </div>
+        </div>
+        <div class="newsBox" onmouseover="ShowNewsBox()" onmouseout="HideNewsBox()">
+            <div class="">
+                <div class="news news1">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                    
+                </div>
+                <div class="news news2">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                </div>
+                <div class="news news3">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                </div>
+                <div class="news news4">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                </div>
+                <div class="news news5">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                </div>
+                <div class="news news6">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                </div>
+                <div class="news news7">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                </div>
+                <div class="news news8">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                </div>
+                <div class="news news9">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                </div>
+                <div class="news news10">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                </div>
+                <div class="news news11">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                </div>
+                <div class="news news12">
+                    <img class="box-img" src="../Netflix/images/carre_blanc.jpeg">
+                    <div class="txt">
+                        <div class="txt1">Nouveautés</div> 
+                        <div class="txt2">il y a 2 jrs</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="splide" id="splide1" aria-labelledby="carousel-heading">
+            <h2 id="carousel-heading">Ajouts des 12 derniers mois</h2>
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide1.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide2.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide3.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide4.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide5.png">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide6.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide7.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide8.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide9.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide10.png">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide11.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide12.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide13.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide14.png">
+                        <img class="card1" src="../Netflix/images/slides/slide1/slide15.png">
+                    </li>
+                </ul>
+          </div>
+        </section>
+        <section class="splide" id="splide2" aria-labelledby="carousel-heading">
+            <h2 id="carousel-heading">Tendances actuelles</h2>
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide1.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide2.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide3.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide4.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide5.png">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide6.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide7.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide8.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide9.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide10.png">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide11.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide12.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide13.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide14.png">
+                        <img class="card1" src="../Netflix/images/slides/slide2/slide15.png">
+                    </li>
+                </ul>
+          </div>
+        </section>
+        <section class="splide" id="splide3" aria-labelledby="carousel-heading">
+            <h2 id="carousel-heading">On pense que vous allez adorer...</h2>
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide1.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide2.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide3.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide4.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide5.png">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide6.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide7.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide8.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide9.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide10.png">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide11.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide12.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide13.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide14.png">
+                        <img class="card1" src="../Netflix/images/slides/slide3/slide15.png">
+                    </li>
+                </ul>
+          </div>
+        </section>
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+    <script src="../Netflix/script.js"></script>
+</body>
+</html>
